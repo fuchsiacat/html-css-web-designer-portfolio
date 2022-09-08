@@ -12,7 +12,9 @@ I have used HTML5 and CSS3 versions.
 - In the last part, there is a picture of the projects.
 
 
-![[Web-Designer-Portfolio.png]]
+![Uploading Web-Designer-Portfolio.png…]()
+
+
 
 _HTML ve CSS ile oluşturulmuştur. Bir web tasarımcının portfoliosunu gösteren sayfadır._
 
