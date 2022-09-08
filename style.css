@@ -1,0 +1,188 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@700;800&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    background-color: #1e2223;
+    color: #ffffff;
+}
+header .logo {
+    font-family: 'Elsie', cursive;
+    letter-spacing: 10px;
+    cursor: pointer;
+    padding: 50px 50px;
+}
+.hamburger span {
+    font-size: 34px;
+    padding: 50px 50px;
+    cursor: pointer;
+}
+.about .hamburger {
+    position: absolute;
+    right: 5px;
+}
+.about img {
+    object-fit: fill;
+    height: 700px;
+    width: 750px;
+}
+.essay {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    padding: 7rem 0;
+    width: 170%;
+    font-size: large;
+}
+.essay h1 {
+    padding-bottom: 2rem;
+}
+.essay h1 b {
+    font-family: 'Elsie', cursive;
+    letter-spacing: 2px;
+    font-size: larger;
+    color: #61dfff;
+}
+.essay p {
+    margin-bottom: 2rem;
+}
+.essay button {
+    padding: 10px 20px;
+    width: max-content;
+    margin-left: 80%;
+    margin-top: 25px;
+    background-color: #61dfff;
+    border-radius: 5px;
+    border: none;
+}
+.essay button a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+}
+.essay button:hover {
+    background-color: rgb(16, 107, 107);
+    cursor: pointer;
+}
+.essay .social {
+    position: absolute;
+    bottom: 35px;
+    left: 15px;
+}
+.essay .social div {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+.essay .social div i:hover, i:active {
+    cursor: pointer;
+    font-size: 90%;
+    color: rgb(16, 107, 107);
+}
+.container {
+    column-count: 4;
+    margin: 0 15rem;
+    margin-top: 3rem;
+}
+.skill {
+    -webkit-box-shadow: 11px 17px 26px -3px rgba(125,125,56,1);
+    -moz-box-shadow: 11px 17px 26px -3px rgba(125,125,56,1);
+    box-shadow: 11px 17px 26px -3px rgba(125,125,56,1);
+    border-radius: 40px 0px 40px 40px;
+    -moz-border-radius: 40px 0px 40px 40px;
+    -webkit-border-radius: 40px 0px 40px 40px;
+    height: 160px;
+    width: 70%;
+    display: grid;
+    row-gap: 1rem;
+    font-size: 13px;
+    background-color: rgb(241, 253, 11);
+    color: black;
+    text-align: center;
+    cursor: pointer;
+}
+.skill i {
+    margin-top: 2rem;
+    font-size: 20px;
+    text-align: end;
+    margin-right: 1.5rem;
+}
+.progress-bar {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 2rem;
+    height: 250px;
+    justify-content: end;
+    margin: 5rem 10rem 6rem 5rem;
+    padding-top: 3rem;
+}
+.manage {
+    display: block;
+    margin-bottom: 3rem;
+    border: 3px solid #1e2223;
+    padding: 2rem;
+    font-size: large;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.manage p {
+    margin-top: 1rem;
+}
+.projects {
+    padding-top: 250px;
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    column-gap: .1rem;
+    row-gap: 2rem;
+    text-align: center;
+    padding-left: 9rem;
+}
+.projects img {
+    height: 450px;
+    width: 350px;
+    cursor: pointer;
+}
+footer {
+    margin-top: 35px;
+    background-color: #1e2223;
+    color: #ffffff;
+    padding: 50px;
+    text-align: center;
+}
+footer .logo {
+    font-family: 'Elsie', cursive;
+    letter-spacing: 10px;
+    cursor: pointer;
+}
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+footer .social {
+    margin-top: 20px;
+    color: #61dfff;
+}
+footer .social i {
+    padding: 20px;
+    font-size: x-large;
+    color: #ffffff;
+}
+footer .social i:hover {
+    color: rgb(16, 107, 107);
+    cursor: pointer;
+}
