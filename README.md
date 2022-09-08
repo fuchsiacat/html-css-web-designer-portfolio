@@ -11,11 +11,6 @@ I have used HTML5 and CSS3 versions.
 - In the Features section, there are plus valuable situations that improve the business, such as teamwork on the job.
 - In the last part, there is a picture of the projects.
 
-
-![Uploading Web-Designer-Portfolio.png…]()
-
-
-
 _HTML ve CSS ile oluşturulmuştur. Bir web tasarımcının portfoliosunu gösteren sayfadır._
 
 HTML5 ve CSS3 sürümleri kullanılmıştır.
@@ -26,3 +21,7 @@ HTML5 ve CSS3 sürümleri kullanılmıştır.
 - Yetenekler kısmında sahip olunan kodlama ve proje yaratma becerileri yer alır.
 - Özellikler kısmında iş konusunda takım çalışması gibi işi geliştiren artı değerli durumlar yer alır.
 - Son kısımda projelerin resmi yer alır.
+
+
+![Web-Designer-Portfolio](https://user-images.githubusercontent.com/109484547/189200977-eaef014f-f323-4519-8e52-06c4db25309d.png)
+
